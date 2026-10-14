@@ -1,0 +1,15 @@
+OLED/GCC/build/
+OLED/MDK-ARM/OLED/
+OLED/MDK-ARM/*.uvguix.*
+tests/build/
+tools/python-libs/
+tools/toolchain/
+**/__pycache__/
+vendor-download/
+*.zip
+
+# Local learning guide and its generators are intentionally not published.
+FreeRTOS移植与逐句讲解.md
+tools/write_guide.py
+tools/guide_appendix.txt
+tools/integrate.py

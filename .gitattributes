@@ -1,0 +1,7 @@
+# Keep the upstream byte hashes stable regardless of core.autocrlf.
+OLED/Middlewares/Third_Party/FreeRTOS/** -text
+
+# Keep project documentation and scripts readable across platforms.
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
